@@ -1,5 +1,5 @@
 {
-  "name": "@rsc-quiescent/alpaca-principal-account-read-service",
+  "name": "@red-cup-engineering/alpaca-principal-account-read-service",
   "version": "0.1.2",
   "private": true,
   "type": "module",
@@ -14,7 +14,7 @@
   },
   "description": "Principal-parameterized, authority-referenced Alpaca account observation with opaque credential custody.",
   "dependencies": {
-    "@rsc-quiescent/pluggable-venue-adapter-service": "0.1.2",
+    "@red-cup-engineering/pluggable-venue-adapter-service": "0.1.2",
     "@red-cup-engineering/semantic-content-identify-service": "0.2.2"
   }
 }
