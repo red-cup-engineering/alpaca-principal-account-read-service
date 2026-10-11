@@ -1,5 +1,5 @@
 import { createAlpacaAdapter } from "@red-cup-engineering/pluggable-venue-adapter-service/alpaca";
-import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/semantic-content-identify-service";
+import { EMPTY_WITNESS_ROOT, identifyJsonSemanticContent } from "@red-cup-engineering/computer-content-address-engineering-services-section/semantic-content-identity";
 
 const semanticId = (value) => identifyJsonSemanticContent({ objectKind: "brokerage.alpaca-principal-account-read.record", value, witnessRoot: EMPTY_WITNESS_ROOT }).id;
 
