@@ -13,6 +13,11 @@
     "verify": "npm run check && npm test"
   },
   "description": "Principal-parameterized, authority-referenced Alpaca account observation with opaque credential custody.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
+    "directory": "services/web-platform-services-section/services/web2-platform-services-section/services/web2-financial-platform-services-section/services/web2-financial-brokerage-platform-services-section/services/alpaca-services-section/services/alpaca-principal-account-read-service"
+  },
   "dependencies": {
     "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*",
     "@red-cup-engineering/pluggable-venue-adapter-service": "workspace:*"
